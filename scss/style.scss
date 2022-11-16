@@ -20,11 +20,17 @@ body {
 
 /*media queries*/
 @media (max-width:768px) {
-    #titulo {
+    #titulo, #Nosotros {
         width: 90% !important; /*con el importante le da prioridad para efectuar la media querie*/
     }
     .programaciones-mob {
         width: 100% !important;
         text-align: center;
     }
+}
+
+// footer
+footer {
+    background: rgba(7, 212, 248, 0.735);
+    min-height: 100px;
 }
