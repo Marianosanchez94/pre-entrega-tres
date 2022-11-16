@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*Body*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+/*Menu*/ 
+#Menu li > a {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+/*carrousel*/
+.carousel-inner {
+    max-height: 45rem;
+}
+
+/*media queries*/
+@media (max-width:768px) {
+    #titulo {
+        width: 90% !important; /*con el importante le da prioridad para efectuar la media querie*/
+    }
+    .programaciones-mob {
+        width: 100% !important;
+        text-align: center;
+    }
+}
